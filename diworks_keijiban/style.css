@@ -1,0 +1,145 @@
+body{
+    font-family:"Hiragino kaku Gothic ProN","メイリオ",sans-serif;
+    margin:0 10px;  
+    
+}
+
+header img{
+    width:300px;
+}
+
+header ul{
+    background-color:black;
+    height:50px;
+    display:flex;
+    align-items:center;
+}
+
+header li{
+    list-style:none;
+    color:white;
+    padding-right:50px;
+}
+
+.left{
+    width:60%;
+    float:left;
+    border-bottom:0px;
+    height:100%;
+    padding-bottom:20px;
+}
+
+.left .midasi{
+    font-size:30px;
+    font-weight:bold;
+    padding:0.25em 0.5em;
+    border-left:solid 10px black;
+    border-bottom:solid 5px gray;
+}
+
+.form h1{
+    margin:0 auto;
+    margin-left:15px;
+    border-left:6px red solid;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:10px;
+    width:100%;
+    font-size:20px;
+}
+
+
+
+.form{
+    margin:15px auto;
+    padding:20px 5px;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius:10px;
+    width:100%;
+}
+
+form div{
+    padding:15px;
+}
+
+.text, textarea{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:#999;
+    background:#fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius:5px;
+    border-bottom:2px solid gray;
+}
+
+.kiji{
+    margin:15px auto;
+    padding:0px 5px 15px 5px;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius:10px;
+    width:100%;
+}
+
+.kiji h3{
+    border-bottom: solid 3px #ebebeb;
+    padding:0px 15px;
+}
+
+.kiji .comments{
+    padding:0px 15px;
+}
+
+
+.kiji .handlename{
+    font-size: 12px;
+    padding: 0px 15px;
+}
+
+.right{
+    float:left;
+    width:30%;
+    height:1000px;
+    margin-left:5%;
+    padding-bottom:20px;
+    align-items:stretch;
+}
+
+.right li{
+    list-style:none;
+}
+
+.right ul{
+    padding-left:12px;
+}
+
+.right .komidasi{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid 5px lightgray;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    height:50px;
+    text-align:center;
+    height:50px;
+}
+
+.footertext{
+    line-height:50px;
+}
